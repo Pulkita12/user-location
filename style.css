@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* margin-top: 300px; */
+    background: linear-gradient(rgb(51, 47, 47) 50%, rgb(141, 141, 223) 50%);
+}
+button{
+    font-size: 50px;
+    padding: 25px 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 500px;
+    color: rgb(141, 141, 223);
+    cursor: pointer;
+}
